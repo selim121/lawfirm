@@ -1,43 +1,61 @@
-import React, { useState } from 'react';
+import React, { useEffect } from 'react';
+import NavItems from './NavItems';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
-    const [isExpanded, toggleExpansion] = useState(false);
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    const handleScroll = () => {
+        if (window.scrollY > 50) {
+            document.querySelector('nav').classList.add('bg-[#30122A]', 'fixed', 'top-0', 'left-0', 'right-0', 'z-10', 'fadeInUp');
+            document.querySelector('nav').classList.remove('relative', 'z-40');
+        } else {
+            document.querySelector('nav').classList.add('bg-[#30122A]', 'relative', 'z-40');
+            document.querySelector('nav').classList.remove('fixed', 'top-0', 'left-0', 'right-0', 'z-10', 'fadeInUp');
+        }
+    };
 
     return (
-        <div>
-            <nav className="flex items-center justify-between flex-wrap bg-[#30122A] p-6">
-                <div className="flex items-center flex-shrink-0 text-white mr-6">
-                    <h2>Kangu</h2>
-
-                </div>
-                <div className="block lg:hidden">
-                    <button
-                        className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
-                        onClick={() => toggleExpansion(!isExpanded)}
-                    >
-                        <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg>
-                    </button>
-                </div>
-                <div className={`${isExpanded ? `block` : `hidden`
-                    } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}>
-                    <div className="text-sm lg:flex-grow">
-                        <a onClick={() => toggleExpansion(!isExpanded)} href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-                            Docs
-                        </a>
-                        <a onClick={() => toggleExpansion(!isExpanded)} href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-                            Examples
-                        </a>
-                        <a onClick={() => toggleExpansion(!isExpanded)} href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
-                            Blog
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#" className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</a>
+        <>
+            <nav className='bg-[#30122A] relative z-40'>
+                <div className="lg:mx-20 px-4">
+                    <div className='flex flex-row py-2 items-center justify-between gap-3 md:gap-0'>
+                        <Link to={'/'} ><h1 className='text-white uppercase text-xl'>Law Firm</h1></Link>
+                        <NavItems />
+                        <div className="dropdown dropdown-end">
+                            <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="" />
+                                </div>
+                            </label>
+                            <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-[#30122A] rounded-lg w-36 space-y-2">
+                                <li>
+                                    <Link to="/" className="hover:border-b-4 hover:border-[#802e6f] px-[8px] py-[3px] text-[#FFFFFF] hover:text-[#FFFFFF]">
+                                        Dashboard
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/" className="hover:border-b-4 hover:border-[#802e6f] px-[8px] py-[3px] text-[#FFFFFF] hover:text-[#FFFFFF]">
+                                        Setting
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/" className="hover:border-b-4 hover:border-[#802e6f] px-[8px] py-[1px] text-[#FFFFFF] hover:text-[#FFFFFF]">
+                                        Logout
+                                    </Link>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </nav>
-        </div>
+        </>
     );
 };
 
