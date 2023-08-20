@@ -1,10 +1,12 @@
 import React from 'react';
 import Slider from '../../Shared/Slider/Slider';
+import WelcomePage from '../WelcomePage/WelcomePage';
 
 const Home = () => {
     return (
-        <div>
+        <div className=''>
             <Slider />
+            <WelcomePage />
         </div>
     );
 };

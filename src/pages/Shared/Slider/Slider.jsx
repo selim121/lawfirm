@@ -40,7 +40,7 @@ const Slider = () => {
     })
 
     return (
-        <div className=''>
+        <div className='bg-[#30122A]'>
             <div ref={sliderRef} className="fader">
                 {images.map((src, idx) => (
                     <div
@@ -51,12 +51,12 @@ const Slider = () => {
                         <img src={src} />
                     </div>
                 ))}
-                <div className="h-[80vh] flex items-center justify-center">
+                <div className="h-[100vh] flex items-center justify-center">
                     <div className="absolute flex flex-col justify-center items-center px-4">
                         <h1 className="text-2xl md:text-4xl text-white font-bold tracking-widest uppercase">LEADING THE WAY IN INNOVATIVE LEGAL SOLUTIONS</h1>
                         <p className="text-white tracking-widest mt-3">Your Partner In Progressive Legal Strategies</p>
                     </div>
-                    <Link to={'#about'} className='bounce absolute bottom-0 text-white hover:text-[#802e6f]'><GiArrowDunk size={'50px'} /></Link>
+                    <Link to={'#welcome'} className='bounce absolute bottom-0 text-white hover:text-[#802e6f]'><GiArrowDunk size={'50px'} /></Link>
                 </div>
             </div>
         </div>
