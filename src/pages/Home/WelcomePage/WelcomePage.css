@@ -1,3 +1,11 @@
 .bg-shadow {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.114), -5px -5px 0px rgba(0, 0, 0, 0.114);
 }
+
+.bg-img {
+    background-image: url('../../../assets/home/2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+}
