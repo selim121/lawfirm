@@ -19,6 +19,7 @@ import Collaborative from '../pages/PracticeArea/Areas/Collaborative/Collaborati
 import Company from '../pages/PracticeArea/Areas/Company/Company';
 import Labour from '../pages/PracticeArea/Areas/Labour/Labour';
 import AboutUs from '../pages/AboutUs/AboutUs';
+import GreatResult from '../pages/GreatResult/GreatResult';
 
 const router = createBrowserRouter([
     {
@@ -88,6 +89,10 @@ const router = createBrowserRouter([
             {
                 path: '/about-us',
                 element: <AboutUs />
+            },
+            {
+                path: '/great-result',
+                element: <GreatResult />
             }
         ]
     },

@@ -3,6 +3,7 @@ import './WelcomePage.css';
 import img1 from '../../../assets/home/1.jpeg';
 import amit from '../../../assets/home/amit.jpeg';
 import about from '../../../assets/others/about-me.png';
+import result from '../../../assets/others/result.png';
 import Button from '../../Shared/Button/Button';
 import { Link } from 'react-router-dom';
 
@@ -76,17 +77,35 @@ const WelcomePage = () => {
                 <div className="py-12 border-b-4 border-[#802e6f]"></div>
                 <div className="">
                     <div className="flex flex-col lg:flex-row items-center px-4 mt-20">
-                        <div className='w-full md:w-1/3 p-4 rounded-lg mb-8 lg:mb-0 md:me-8'>
+                        <div className='bg-shadow bg-[#30122A] w-full md:w-1/3 p-4 rounded-lg mb-8 lg:mb-0 md:me-8'>
                             <div className="relative w-full h-full overflow-hidden rounded-lg">
-                                <img src={about} className="w-full h-full rounded-lg object-cover transition-transform hover:scale-110 transition-duration-300 transition-timing-function-ease-in" />
+                                <img src={about} className="w-full h-full bg-[#000000] rounded-lg object-cover transition-transform hover:scale-110 transition-duration-300 transition-timing-function-ease-in" />
                             </div>
                         </div>
                         <div className="text-white 'w-full md:w-2/3 px-4">
                             <h1 className="text-3xl md:text-5xl uppercase tracking-wider">About Us</h1>
                             <p className="border-b-4 border-[#802e6f] w-20 pt-5"></p>
-                            <p className="pt-5 font-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi cum accusamus libero deleniti voluptas error beatae consequuntur, fuga soluta debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam ratione necessitatibus sint. Beatae voluptatem maxime culpa facere, esse fuga?</p>
+                            <p className="pt-5 opacity-70 text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi cum accusamus libero deleniti voluptas error beatae consequuntur, fuga soluta debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam ratione necessitatibus sint. Beatae voluptatem maxime culpa facere, esse fuga?</p>
                             <div className="mt-8">
                                 <Link to={'/about-us'} ><Button name={'Learn More'} /></Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="py-12 border-b-4 border-[#802e6f]"></div>
+                <div className="">
+                    <div className="flex flex-col-reverse lg:flex-row items-center px-4 mt-20">
+                        <div className="text-white 'w-full md:w-2/3 px-4">
+                            <h1 className="text-3xl md:text-5xl uppercase tracking-wider">Great Result</h1>
+                            <p className="border-b-4 border-[#802e6f] w-20 pt-5"></p>
+                            <p className="pt-5 opacity-70 text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi cum accusamus libero deleniti voluptas error beatae consequuntur, fuga soluta debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam ratione necessitatibus sint. Beatae voluptatem maxime culpa facere, esse fuga?</p>
+                            <div className="mt-8">
+                                <Link to={'/great-result'} ><Button name={'Learn More'} /></Link>
+                            </div>
+                        </div>
+                        <div className='bg-shadow bg-[#30122A] w-full md:w-1/3 p-4 rounded-lg mb-8 lg:mb-0 md:ms-8'>
+                            <div className="relative w-full h-full overflow-hidden rounded-lg">
+                                <img src={result} className="w-full h-full bg-[#000000] rounded-lg object-cover transition-transform hover:scale-110 transition-duration-300 transition-timing-function-ease-in" />
                             </div>
                         </div>
                     </div>
