@@ -10,7 +10,7 @@ import './Slider.css';
 import { GiArrowDunk } from 'react-icons/gi';
 import { Link } from 'react-router-dom';
 
-const animation = { duration: 30000, easing: (t) => t }
+const animation = { duration: 20000, easing: (t) => t }
 
 
 const Slider = () => {
