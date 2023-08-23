@@ -2,13 +2,14 @@ import React from 'react';
 import './WelcomePage.css';
 import img1 from '../../../assets/home/1.jpeg';
 import amit from '../../../assets/home/amit.jpeg';
+import about from '../../../assets/others/about-me.png';
 import Button from '../../Shared/Button/Button';
 import { Link } from 'react-router-dom';
 
 const WelcomePage = () => {
     return (
-        <div id='welcome' className='bg-[#30122A] py-12'>
-            <div className="max-w-screen-xl mx-auto">
+        <div id='welcome' className='bg-[#30122A]'>
+            <div className="max-w-screen-xl mx-auto py-12">
                 <div className="flex flex-col items-center justify-center space-y-2 py-12">
                     <p className="text-white tracking-widest font-light">Welcome to</p>
                     <h1 className="text-3xl md:text-6xl text-white uppercase tracking-widest font-semibold text-center">Law Firm Family</h1>
@@ -68,6 +69,24 @@ const WelcomePage = () => {
                                 <div className="bg-[#30122A] w-96 text-center rounded-es-xl rounded-ss-xl rounded-ee-xl">
                                     <p className="text-justify text-white opacity-60 p-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis eum inventore exercitationem esse quos aut assumenda porro natus maiores. Odio, velit. Minus similique temporibus iure quae repudiandae placeat impedit soluta!</p>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="py-12 border-b-4 border-[#802e6f]"></div>
+                <div className="">
+                    <div className="flex flex-col lg:flex-row items-center px-4 mt-20">
+                        <div className='w-full md:w-1/3 p-4 rounded-lg mb-8 lg:mb-0 md:me-8'>
+                            <div className="relative w-full h-full overflow-hidden rounded-lg">
+                                <img src={about} className="w-full h-full rounded-lg object-cover transition-transform hover:scale-110 transition-duration-300 transition-timing-function-ease-in" />
+                            </div>
+                        </div>
+                        <div className="text-white 'w-full md:w-2/3 px-4">
+                            <h1 className="text-3xl md:text-5xl uppercase tracking-wider">About Us</h1>
+                            <p className="border-b-4 border-[#802e6f] w-20 pt-5"></p>
+                            <p className="pt-5 font-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi cum accusamus libero deleniti voluptas error beatae consequuntur, fuga soluta debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam ratione necessitatibus sint. Beatae voluptatem maxime culpa facere, esse fuga?</p>
+                            <div className="mt-8">
+                                <Link to={'/about-us'} ><Button name={'Learn More'} /></Link>
                             </div>
                         </div>
                     </div>

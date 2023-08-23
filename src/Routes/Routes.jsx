@@ -18,6 +18,7 @@ import Tort from '../pages/PracticeArea/Areas/Tort/Tort';
 import Collaborative from '../pages/PracticeArea/Areas/Collaborative/Collaborative';
 import Company from '../pages/PracticeArea/Areas/Company/Company';
 import Labour from '../pages/PracticeArea/Areas/Labour/Labour';
+import AboutUs from '../pages/AboutUs/AboutUs';
 
 const router = createBrowserRouter([
     {
@@ -84,6 +85,10 @@ const router = createBrowserRouter([
                 path: '/practice-areas/labour',
                 element: <Labour />
             },
+            {
+                path: '/about-us',
+                element: <AboutUs />
+            }
         ]
     },
 ]);
