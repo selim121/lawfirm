@@ -30,10 +30,10 @@ const NavItems = () => {
                 <NavLink to="/" className="hidden md:block active-link hover:border-b-4 hover:border-[#802e6f] px-[8px] py-[1px] text-[#FFFFFF]" onClick={() => setIsOpen(false)}>
                     Home
                 </NavLink>
-                <NavLink to="/" className="hidden md:block active-link hover:border-b-4 hover:border-[#802e6f] px-[8px] py-[1px] text-[#FFFFFF]" onClick={() => setIsOpen(false)}>
+                <NavLink to="/team-members" className="hidden md:block active-link hover:border-b-4 hover:border-[#802e6f] px-[8px] py-[1px] text-[#FFFFFF]" onClick={() => setIsOpen(false)}>
                     Our Teams
                 </NavLink>
-                <NavLink to="/" className="hidden md:block active-link hover:border-b-4 hover:border-[#802e6f] px-[8px] py-[1px] text-[#FFFFFF]" onClick={() => setIsOpen(false)}>
+                <NavLink to="/practice-areas" className="hidden md:block active-link hover:border-b-4 hover:border-[#802e6f] px-[8px] py-[1px] text-[#FFFFFF]" onClick={() => setIsOpen(false)}>
                     Practice Areas
                 </NavLink>
                 <div className="dropdown dropdown-bottom dropdown-end dropdown-hover">
