@@ -1,0 +1,7 @@
+.litigation-bg {
+    background-image: url("../../../../assets/practice-area/litigation.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+}

@@ -1,0 +1,7 @@
+.corporate-bg {
+    background-image: url("../../../../assets/practice-area/corporate.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+}

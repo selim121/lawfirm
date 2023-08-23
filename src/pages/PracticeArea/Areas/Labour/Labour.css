@@ -1,0 +1,7 @@
+.labour-bg {
+    background-image: url("../../../../assets/practice-area/labour.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+}

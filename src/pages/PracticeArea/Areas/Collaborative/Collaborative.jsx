@@ -1,14 +1,14 @@
 import React from 'react';
-import './Bankruptcy.css';
+import './Collaborative.css';
 
-const Bankruptcy = () => {
+const Collaborative = () => {
     return (
         <div className='bg-[#30122A] py-12'>
             <div className="max-w-screen-xl mx-auto px-4 lg:px-0">
-                <div className="bankruptcy-bg bg-fixed"></div>
+                <div className="collaborative-bg bg-fixed"></div>
                 <div className="flex flex-col items-center justify-center space-y-2 py-12">
                     <p className="text-white tracking-widest font-light">Know about</p>
-                    <h1 className="text-3xl md:text-6xl text-white uppercase tracking-widest font-semibold text-center">Bankruptcy Law</h1>
+                    <h1 className="text-3xl md:text-6xl text-white uppercase tracking-widest font-semibold text-center">Collaborative Law</h1>
                     <p className="border-b-4 border-[#802e6f] w-20 pt-2"></p>
                 </div>
                 <div className="my-8">
@@ -46,7 +46,7 @@ const Bankruptcy = () => {
                     </div>
                 </div>
                 <div className='pt-8'>
-                    <h4 className="text-2xl uppercase text-white tracking-widest">Is Bankruptcy right for you?</h4>
+                    <h4 className="text-2xl uppercase text-white tracking-widest">Is Collaborative right for you?</h4>
                     <p className="border-b-4 border-[#802e6f] w-10 pt-2"></p>
                     <p className="text-white text-justify mt-4 tracking-wide leading-loose opacity-80">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam itaque quos aliquam obcaecati vero officia facere hic dolore voluptas. Dolorum tenetur minima natus totam ea eaque animi id nihil accusamus nam ducimus enim non odit sint incidunt quod, minus in perferendis itaque maiores fugiat magni odio facere maxime! Consequuntur vitae consequatur fugit quibusdam libero? Saepe tempore illo modi quo quibusdam dolor dolorem ad! Cumque molestiae, dolores sed, atque quis animi assumenda magni nulla facilis numquam in corporis esse tempore dolorum, expedita corrupti aperiam quos sunt laboriosam! Officiis quia dolorum labore numquam laboriosam soluta ullam, sint unde explicabo beatae cumque voluptas consequatur ipsam vitae error, vero cupiditate magnam ratione. Quod possimus voluptas totam nostrum illum dolore eius error quasi modi et? Animi, ratione? Ducimus quasi sed eos officia tempore illo totam quae impedit similique dolore consequuntur minus suscipit saepe cumque molestiae tenetur vero est debitis ea velit, tempora provident ullam placeat?
@@ -57,4 +57,4 @@ const Bankruptcy = () => {
     );
 };
 
-export default Bankruptcy;
+export default Collaborative;
