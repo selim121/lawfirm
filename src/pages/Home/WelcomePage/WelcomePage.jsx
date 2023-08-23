@@ -3,6 +3,7 @@ import './WelcomePage.css';
 import img1 from '../../../assets/home/1.jpeg';
 import amit from '../../../assets/home/amit.jpeg';
 import Button from '../../Shared/Button/Button';
+import { Link } from 'react-router-dom';
 
 const WelcomePage = () => {
     return (
@@ -24,7 +25,7 @@ const WelcomePage = () => {
                         <p className="border-b-4 border-[#802e6f] w-20 pt-5"></p>
                         <p className="pt-5 font-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi cum accusamus libero deleniti voluptas error beatae consequuntur, fuga soluta debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam ratione necessitatibus sint. Beatae voluptatem maxime culpa facere, esse fuga?</p>
                         <div className="mt-8">
-                            <Button name={'Learn More'} />
+                            <Link to={'/team-members'} ><Button name={'Learn More'} /></Link>
                         </div>
                     </div>
                 </div>

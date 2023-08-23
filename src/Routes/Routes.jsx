@@ -7,6 +7,7 @@ import Home from '../pages/Home/Home/Home';
 import Team from '../pages/Team/Team';
 import PracticeArea from '../pages/PracticeArea/PracticeArea';
 import Arbitration from '../pages/PracticeArea/Areas/Arbitration/Arbitration';
+import Bankruptcy from '../pages/PracticeArea/Areas/Bankruptcy/Bankruptcy';
 
 const router = createBrowserRouter([
     {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
             {
                 path: '/practice-areas/Arbitration',
                 element: <Arbitration />
+            },
+            {
+                path: '/practice-areas/Bankruptcy',
+                element: <Bankruptcy />
             }
         ]
     },
