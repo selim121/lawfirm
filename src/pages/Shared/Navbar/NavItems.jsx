@@ -101,6 +101,9 @@ const NavItems = () => {
                         </li>
                     </ul>
                 </div>
+                <NavLink to="/about-us" className="hidden md:block active-link hover:border-b-4 hover:border-[#D1B06B] px-[8px] py-[1px] text-[#FFFFFF]" onClick={() => setIsOpen(false)}>
+                    About Us
+                </NavLink>
                 <div onClick={toggleOpen} className='flex flex-row items-center gap-3 cursor-pointer hover:shadow-md transition toggle-element rounded-full p-4 py-1 px-2 border-[1px] border-[#D1B06B] md:hidden'>
                     <AiOutlineMenu color='#FFFFFF' size={'30px'} />
                 </div>
@@ -119,26 +122,20 @@ const NavItems = () => {
                             </Link>
                             <Link
                                 onClick={() => setIsOpen(false)}
-                                to='/'
+                                to='/team-members'
                                 className='block md:hidden px-4 py-3 hover:border-b-4 hover:border-[#D1B06B] transition font-semibold text-[#FFFFFF]'
                             >
-                                Services
+                                Our Teams
                             </Link>
                             <Link
                                 onClick={() => setIsOpen(false)}
-                                to='/-work'
+                                to='/practice-areas'
                                 className='block md:hidden px-4 py-3 hover:border-b-4 hover:border-[#D1B06B] transition font-semibold text-[#FFFFFF]'
                             >
-                                Previous Work
+                                Practice Areas
                             </Link>
-                            <Link to="/practice-areas/" className="block md:hidden px-4 py-3 hover:border-b-4 hover:border-[#D1B06B] transition font-semibold text-[#FFFFFF]">
-                                Our Team
-                            </Link>
-                            <Link onClick={() => setIsOpen(false)} to="/practice-areas/" className="block md:hidden px-4 py-3 hover:border-b-4 hover:border-[#D1B06B] transition font-semibold text-[#FFFFFF]">
-                                Contact Us
-                            </Link>
-                            <Link onClick={() => setIsOpen(false)} to="/practice-areas/" className="block md:hidden px-4 py-3 hover:border-b-4 hover:border-[#D1B06B] transition font-semibold text-[#FFFFFF]">
-                                About risGen
+                            <Link onClick={() => setIsOpen(false)} to="/about-us" className="block md:hidden px-4 py-3 hover:border-b-4 hover:border-[#D1B06B] transition font-semibold text-[#FFFFFF]">
+                                About Us
                             </Link>
                         </div>
                     </div>
