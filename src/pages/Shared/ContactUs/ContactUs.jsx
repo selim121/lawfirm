@@ -11,7 +11,7 @@ const ContactUs = () => {
 
     return (
         <div className='bg-[#161D27] pt-12 pb-6'>
-            <div className="max-w-screen-xl mx-auto">
+            <div className="max-w-screen-xl mx-auto px-4">
                 <div className="flex flex-col items-center justify-center space-y-2 py-12">
                     <p className="text-white tracking-widest font-light">Need attorney</p>
                     <h1 className="text-3xl md:text-6xl text-white uppercase tracking-widest font-semibold text-center">Contact Us</h1>

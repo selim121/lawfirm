@@ -79,8 +79,8 @@ const Team = () => {
     ]
 
     return (
-        <div id='welcome' className='bg-[#1F2732] py-12'>
-            <div className="max-w-screen-xl mx-auto">
+        <div className='bg-[#1F2732] py-12'>
+            <div className="max-w-screen-xl mx-auto px-4">
                 <div className="flex flex-col items-center justify-center space-y-2 py-12">
                     <p className="text-white tracking-widest font-light">Meet our</p>
                     <h1 className="text-3xl md:text-6xl text-white uppercase tracking-widest font-semibold text-center">Law Firm Family</h1>
@@ -94,7 +94,7 @@ const Team = () => {
                             </div>
                             <div className="flex flex-col items-center justify-center mt-4">
                                 <h3 className="text-white text-2xl font-semibold">{member.name}</h3>
-                                <p className="text-white opacity-70">{member.designation}</p>
+                                <p className="text-[#D1B06B]">{member.designation}</p>
                             </div>
                         </div>)
                     }
