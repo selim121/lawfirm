@@ -1,6 +1,7 @@
 import React from 'react';
 import team from '../../assets/others/team.png';
 import './AboutUs.css';
+import Attorney from '../Home/Attorney/Attorney';
 
 const AboutUs = () => {
     return (
@@ -93,6 +94,8 @@ const AboutUs = () => {
                     </div>
 
                 </div>
+                <div className="mt-12 mb-6 border-b-4 border-[#D1B06B]"></div>
+                <Attorney />
             </div>
         </div>
     );

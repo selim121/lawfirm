@@ -38,30 +38,65 @@ const NavItems = () => {
                 </NavLink>
                 <div className="dropdown dropdown-bottom dropdown-end dropdown-hover">
                     <label tabIndex={0} className="hidden md:block hover:border-b-4 hover:border-[#D1B06B] px-[8px] py-[1px] cursor-pointer text-[#FFFFFF] "><span className='flex flex-row items-center'>Expertise <IoMdArrowDropdown /></span> </label>
-                    <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-[#1F2732] rounded-lg w-36 space-y-2">
+                    <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-white rounded-lg w-36 space-y-2">
                         <li>
-                            <Link to="/" className="hover:border-b-4 hover:border-[#D1B06B] px-[8px] py-[3px] text-[#FFFFFF] hover:text-[#FFFFFF]">
-                                Financial
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/" className="hover:border-b-4 hover:border-[#D1B06B] px-[8px] py-[3px] text-[#FFFFFF] hover:text-[#FFFFFF]">
+                            <Link to="/practice-areas/parenting" className="hover:border-b-4 hover:border-[#D1B06B] px-[8px] py-[3px] text-[#161D27]">
                                 Parenting
                             </Link>
                         </li>
                         <li>
-                            <Link to="/" className="hover:border-b-4 hover:border-[#D1B06B] px-[8px] py-[3px] text-[#FFFFFF] hover:text-[#FFFFFF]">
+                            <Link to="/practice-areas/arbitration" className="hover:border-b-4 hover:border-[#D1B06B] px-[8px] py-[1px] text-[#161D27]">
+                                Arbitration
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/practice-areas/collaborative" className="hover:border-b-4 hover:border-[#D1B06B] px-[8px] py-[1px] text-[#161D27]">
+                                Collaborative
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/practice-areas/litigation" className="hover:border-b-4 hover:border-[#D1B06B] px-[8px] py-[1px] text-[#161D27]">
+                                Litigation
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/practice-areas/tax" className="hover:border-b-4 hover:border-[#D1B06B] px-[8px] py-[1px] text-[#161D27]">
+                                Tax
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/practice-areas/bankruptcy" className="hover:border-b-4 hover:border-[#D1B06B] px-[8px] py-[3px] text-[#161D27]">
+                                Bankruptcy
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/practice-areas/corporate" className="hover:border-b-4 hover:border-[#D1B06B] px-[8px] py-[3px] text-[#161D27]">
+                                Corporate
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/practice-areas/estate" className="hover:border-b-4 hover:border-[#D1B06B] px-[8px] py-[3px] text-[#161D27]">
+                                Estate Planning
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/practice-areas/mediation" className="hover:border-b-4 hover:border-[#D1B06B] px-[8px] py-[1px] text-[#161D27]">
                                 Mediation
                             </Link>
                         </li>
                         <li>
-                            <Link to="/" className="hover:border-b-4 hover:border-[#D1B06B] px-[8px] py-[3px] text-[#FFFFFF] hover:text-[#FFFFFF]">
-                                Negotiation
+                            <Link to="/practice-areas/tort" className="hover:border-b-4 hover:border-[#D1B06B] px-[8px] py-[1px] text-[#161D27]">
+                                Tort
                             </Link>
                         </li>
                         <li>
-                            <Link to="/" className="hover:border-b-4 hover:border-[#D1B06B] px-[8px] py-[1px] text-[#FFFFFF] hover:text-[#FFFFFF]">
-                                Collaborative
+                            <Link to="/practice-areas/company" className="hover:border-b-4 hover:border-[#D1B06B] px-[8px] py-[1px] text-[#161D27]">
+                                Company
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/practice-areas/labour" className="hover:border-b-4 hover:border-[#D1B06B] px-[8px] py-[1px] text-[#161D27]">
+                                Labour
                             </Link>
                         </li>
                     </ul>
@@ -96,13 +131,13 @@ const NavItems = () => {
                             >
                                 Previous Work
                             </Link>
-                            <Link to="/" className="block md:hidden px-4 py-3 hover:border-b-4 hover:border-[#D1B06B] transition font-semibold text-[#FFFFFF]">
+                            <Link to="/practice-areas/" className="block md:hidden px-4 py-3 hover:border-b-4 hover:border-[#D1B06B] transition font-semibold text-[#FFFFFF]">
                                 Our Team
                             </Link>
-                            <Link onClick={() => setIsOpen(false)} to="/" className="block md:hidden px-4 py-3 hover:border-b-4 hover:border-[#D1B06B] transition font-semibold text-[#FFFFFF]">
+                            <Link onClick={() => setIsOpen(false)} to="/practice-areas/" className="block md:hidden px-4 py-3 hover:border-b-4 hover:border-[#D1B06B] transition font-semibold text-[#FFFFFF]">
                                 Contact Us
                             </Link>
-                            <Link onClick={() => setIsOpen(false)} to="/" className="block md:hidden px-4 py-3 hover:border-b-4 hover:border-[#D1B06B] transition font-semibold text-[#FFFFFF]">
+                            <Link onClick={() => setIsOpen(false)} to="/practice-areas/" className="block md:hidden px-4 py-3 hover:border-b-4 hover:border-[#D1B06B] transition font-semibold text-[#FFFFFF]">
                                 About risGen
                             </Link>
                         </div>

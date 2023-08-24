@@ -23,8 +23,8 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className='bg-[#1F2732] relative z-40'>
-                <div className="lg:mx-20 px-4">
+            <nav className='bg-[#1F2732] relative z-40 border-b-2 border-[#161D27]'>
+                <div className="xl:mx-20 px-4">
                     <div className='flex flex-row py-2 items-center justify-between gap-3 md:gap-0'>
                         <Link to={'/'} ><h1 className='text-white uppercase text-xl'>Law Firm</h1></Link>
                         <NavItems />
