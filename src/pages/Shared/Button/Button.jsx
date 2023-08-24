@@ -3,7 +3,7 @@ import './Button.css';
 
 const Button = ({name}) => {
     return (
-        <button className="btn">{name}</button>
+        <button className="btn hover:text-white tracking-widest">{name}</button>
     );
 };
 

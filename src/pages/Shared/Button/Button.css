@@ -5,12 +5,12 @@
     border: none;
     cursor: pointer;
     color: #FFFFFF;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     border-radius: 0.5rem;
     transition: all .5s;
     z-index: 1;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.114), -5px -5px 0px rgba(0, 0, 0, 0.114);
-    background: #802e6f;
+    background: #D1B06B;
 }
 
 .btn::before{
@@ -27,7 +27,7 @@
 
 .btn:hover::before {
     height: 100%;
-    background-color: #802e6f;
+    background-color: #D1B06B;
 }
 
 .btn:hover {

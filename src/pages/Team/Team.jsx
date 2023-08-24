@@ -79,16 +79,16 @@ const Team = () => {
     ]
 
     return (
-        <div id='welcome' className='bg-[#30122A] py-12'>
+        <div id='welcome' className='bg-[#1F2732] py-12'>
             <div className="max-w-screen-xl mx-auto">
                 <div className="flex flex-col items-center justify-center space-y-2 py-12">
                     <p className="text-white tracking-widest font-light">Meet our</p>
                     <h1 className="text-3xl md:text-6xl text-white uppercase tracking-widest font-semibold text-center">Law Firm Family</h1>
-                    <p className="border-b-4 border-[#802e6f] w-20 pt-2"></p>
+                    <p className="border-b-4 border-[#D1B06B] w-20 pt-2"></p>
                 </div>
                 <div className="flex flex-wrap gap-4 items-center justify-center">
                     {
-                        members.map((member, index) => <div key={index} className='bg-shadow bg-[#391432]  p-4 rounded-lg mb-8 lg:mb-0 md:me-8 cursor-pointer'>
+                        members.map((member, index) => <div key={index} className='card-bg bg-[#161D27]  p-4 rounded-lg mb-8 lg:mb-0 md:me-8 cursor-pointer'>
                             <div className="relative w-[300px] h-full overflow-hidden rounded-lg">
                                 <img src={member.image} className="w-full h-full bg-[#000000] rounded-lg object-cover transition-transform hover:scale-110 transition-duration-300 transition-timing-function-ease-in" />
                             </div>

@@ -1,4 +1,4 @@
-.bg-shadow {
+.card-bg {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.114), -5px -5px 0px rgba(0, 0, 0, 0.114);
 }
 
@@ -18,7 +18,7 @@
         transform: translateX(-50%);
         width: 4px;
         height: calc(100% - 10px);
-        background-color: #802e6f;
+        background-color: #D1B06B;
         animation: line 5s linear;
         @media (max-width: 767px) {
           left: 95%;
@@ -40,14 +40,14 @@
           height: 20px;
           border-radius: 50%;
           border: 3px solid #fff;
-          background: #802e6f;
+          background: #161D27;
           animation: fadeIn 1.5s;
           animation-fill-mode: both;
         }
         .timeline-card-wrap {
           height: 100%;
           margin-right: 35px;
-          background-color: #802e6f;
+          background-color: #161D27;
           border-radius: 10px;
           position: relative;
           padding: 30px;
@@ -63,7 +63,7 @@
             top: -8px;
             height: 8px;
             width: calc(100% - 60px);
-            background-color: #802e6f;
+            background-color: #161D27;
             border-radius: 5px 5px 0 0;
             opacity: 0.3;
           }
@@ -74,7 +74,7 @@
             right: -8px;
             width: 20px;
             height: 20px;
-            background-color: #802e6f;
+            background-color: #161D27;
             border-radius: 5px;
             transform: rotate(45deg);
           }
@@ -145,7 +145,7 @@
                 right: unset;
                 border-left: none;
                 left: -8px;
-                border-right: 10px solid #802e6f;
+                border-right: 10px solid #161D27;
               }
             }
           }

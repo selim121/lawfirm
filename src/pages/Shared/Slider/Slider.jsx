@@ -40,7 +40,7 @@ const Slider = () => {
     })
 
     return (
-        <div className='bg-[#30122A]'>
+        <div className='bg-[#1F2732]'>
             <div ref={sliderRef} className="fader">
                 {images.map((src, idx) => (
                     <div
@@ -56,7 +56,7 @@ const Slider = () => {
                         <h1 className="text-2xl md:text-4xl text-white font-bold tracking-widest uppercase">LEADING THE WAY IN INNOVATIVE LEGAL SOLUTIONS</h1>
                         <p className="text-white tracking-widest mt-3">Your Partner In Progressive Legal Strategies</p>
                     </div>
-                    <Link to={'#welcome'} className='bounce absolute bottom-0 text-white hover:text-[#802e6f]'><GiArrowDunk size={'50px'} /></Link>
+                    <Link to={'#welcome'} className='bounce absolute bottom-0 text-white hover:text-[#D1B06B]'><GiArrowDunk size={'50px'} /></Link>
                 </div>
             </div>
         </div>
