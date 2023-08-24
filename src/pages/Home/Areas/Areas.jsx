@@ -41,7 +41,7 @@ const Areas = () => {
                 <div className="flex flex-wrap items-center justify-center gap-6">
                     {
                         practiceAreas.map((practiceArea, index) => <Link to={`${practiceArea.title.slice(0, practiceArea.title.indexOf(' '))}`} key={index} className="card-bg bg-[#161D27] cursor-pointer p-4 flex flex-col items-center justify-center">
-                            <div className="bg-[#1F2732] p-4 rounded-2xl">
+                            <div data-aos="zoom-in-down" data-aos-easing="ease-in-sine" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" className="bg-[#1F2732] p-4 rounded-2xl">
                                 <div className="relative w-48 h-40 opacity-70 rounded-2xl overflow-hidden ">
                                     <img src={practiceArea.img} className="w-full h-full rounded-2xl object-cover transition-transform hover:scale-110 transition-duration-300 transition-timing-function-ease-in" />
                                 </div>

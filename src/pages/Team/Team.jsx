@@ -90,7 +90,7 @@ const Team = () => {
                     {
                         members.map((member, index) => <div key={index} className='card-bg bg-[#161D27]  p-4 rounded-lg mb-8 lg:mb-0 md:me-8 cursor-pointer'>
                             <div className="relative w-[300px] h-full overflow-hidden rounded-lg">
-                                <img src={member.image} className="w-full h-full bg-[#000000] rounded-lg object-cover transition-transform hover:scale-110 transition-duration-300 transition-timing-function-ease-in" />
+                                <img data-aos="zoom-in-down" data-aos-easing="ease-in-cubic" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" src={member.image} className="w-full h-full bg-[#000000] rounded-lg object-cover transition-transform hover:scale-110 transition-duration-300 transition-timing-function-ease-in" />
                             </div>
                             <div className="flex flex-col items-center justify-center mt-4">
                                 <h3 className="text-white text-2xl font-semibold">{member.name}</h3>

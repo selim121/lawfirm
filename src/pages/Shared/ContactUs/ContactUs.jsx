@@ -19,7 +19,7 @@ const ContactUs = () => {
                     <p className="border-b-4 border-[#D1B06B] w-20 pt-2"></p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 py-12">
-                    <div className="text-[#D7D7D7] card-bg bg-[#1F2732] p-4 space-y-3">
+                    <div data-aos="zoom-in-up" data-aos-easing="ease-in-cubic" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" className="text-[#D7D7D7] card-bg bg-[#1F2732] p-4 space-y-3">
                         <h1 className="text-3xl">Law Firm Logo</h1>
                         <p>Minneapolis, Minnesota, USA</p>
                         <p>Phone: 456 789 2345</p>
@@ -36,13 +36,13 @@ const ContactUs = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="responsive-map">
+                    <div data-aos="zoom-in-down" data-aos-easing="ease-in-cubic" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" className="responsive-map">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.7806761080233!2d-93.29138368446431!3d44.96844997909819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32b6ee2c87c91%3A0xc20dff2748d2bd92!2sWalker+Art+Center!5e0!3m2!1sen!2sus!4v1514524647889" width="600" height="450" allowFullScreen></iframe>
                     </div>
                 </div>
                 <div className="contact-bg bg-fixed">
                     <div className="w-full md:w-3/4 h-screen flex flex-col justify-center mx-auto">
-                        <form className="bg-[#1F2732] grid grid-cols-1 items-center justify-center gap-4 px-4 py-20 text-center">
+                        <form data-aos="zoom-in-down" data-aos-easing="ease-in-cubic" data-aos-duration="1000" data-aos-anchor-placement="center-bottom" className="bg-[#1F2732] grid grid-cols-1 items-center justify-center gap-4 px-4 py-20 text-center">
                             <div>
                                 <input className="w-full md:w-3/4 px-4 py-3 bg-[#1F2732] border-b border-[#3A4553] dark:text-white" type="text" placeholder="Enter Your Name" name="name" required />
                             </div>

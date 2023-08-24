@@ -24,7 +24,7 @@ const GreatResult = () => {
                             <div className="road-map-circle">
                                 <span className="road-map-circle-text flex items-center justify-center" >01</span>
                             </div>
-                            <div className="road-map-card">
+                            <div data-aos="fade-up" data-aos-easing="ease-in-shine" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" className="road-map-card">
                                 <h3 className="text-white uppercase tracking-widest text-2xl mb-4">Consult</h3>
                                 <p className="text-white text-justify">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit culpa amet autem perferendis ad beatae, maiores voluptatibus, explicabo quam optio deserunt? Molestias assumenda sint amet, error, autem obcaecati possimus eos saepe et reiciendis accusantium repellendus nesciunt repudiandae consectetur commodi voluptate!
@@ -35,7 +35,7 @@ const GreatResult = () => {
                             <div className="road-map-circle">
                                 <span className="road-map-circle-text flex items-center justify-center" >02</span>
                             </div>
-                            <div className="road-map-card">
+                            <div data-aos="fade-right" data-aos-easing="ease-in-shine" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" className="road-map-card">
                                 <h3 className="text-white uppercase tracking-widest text-2xl mb-4">Plan</h3>
                                 <p className="text-white text-justify">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit culpa amet autem perferendis ad beatae, maiores voluptatibus, explicabo quam optio deserunt? Molestias assumenda sint amet, error, autem obcaecati possimus eos saepe et reiciendis accusantium repellendus nesciunt repudiandae consectetur commodi voluptate!
@@ -46,7 +46,7 @@ const GreatResult = () => {
                             <div className="road-map-circle">
                                 <span className="road-map-circle-text flex items-center justify-center" >03</span>
                             </div>
-                            <div className="road-map-card">
+                            <div data-aos="fade-up" data-aos-easing="ease-in-shine" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" className="road-map-card">
                                 <h3 className="text-white uppercase tracking-widest text-2xl mb-4">Implement</h3>
                                 <p className="text-white text-justify">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit culpa amet autem perferendis ad beatae, maiores voluptatibus, explicabo quam optio deserunt? Molestias assumenda sint amet, error, autem obcaecati possimus eos saepe et reiciendis accusantium repellendus nesciunt repudiandae consectetur commodi voluptate!
@@ -57,7 +57,7 @@ const GreatResult = () => {
                             <div className="road-map-circle">
                                 <span className="road-map-circle-text flex items-center justify-center" >04</span>
                             </div>
-                            <div className="road-map-card">
+                            <div data-aos="fade-right" data-aos-easing="ease-in-shine" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" className="road-map-card">
                                 <h3 className="text-white uppercase tracking-widest text-2xl mb-4">Adjust</h3>
                                 <p className="text-white text-justify">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit culpa amet autem perferendis ad beatae, maiores voluptatibus, explicabo quam optio deserunt? Molestias assumenda sint amet, error, autem obcaecati possimus eos saepe et reiciendis accusantium repellendus nesciunt repudiandae consectetur commodi voluptate!
@@ -68,7 +68,7 @@ const GreatResult = () => {
                             <div className="road-map-circle">
                                 <span className="road-map-circle-text flex items-center justify-center" >05</span>
                             </div>
-                            <div className="road-map-card">
+                            <div data-aos="fade-up" data-aos-easing="ease-in-shine" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" className="road-map-card">
                                 <h3 className="text-white uppercase tracking-widest text-2xl mb-4">Close</h3>
                                 <p className="text-white text-justify">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit culpa amet autem perferendis ad beatae, maiores voluptatibus, explicabo quam optio deserunt? Molestias assumenda sint amet, error, autem obcaecati possimus eos saepe et reiciendis accusantium repellendus nesciunt repudiandae consectetur commodi voluptate!

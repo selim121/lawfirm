@@ -41,7 +41,6 @@
           border-radius: 50%;
           border: 3px solid #fff;
           background: #161D27;
-          animation: fadeIn 1.5s;
           animation-fill-mode: both;
         }
         .timeline-card-wrap {
@@ -51,7 +50,6 @@
           border-radius: 10px;
           position: relative;
           padding: 30px;
-          animation: fadeInRight 2.5s;
           animation-fill-mode: both;
           @media (max-width: 767px) {
             padding: 20px;
@@ -138,7 +136,6 @@
             .timeline-card-wrap {
               margin-right: 0;
               margin-left: 35px;
-              animation: fadeInLeft 2.5s;
               animation-fill-mode: both;
               animation-delay: 2.5s;
               &::after {
@@ -160,34 +157,5 @@
   
     100% {
       height: calc(100% - 10px);
-    }
-  }
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-  
-    to {
-      opacity: 1;
-    }
-  }
-  @keyframes fadeInRight {
-    0% {
-      opacity: 0;
-      transform: translateX(20px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-  @keyframes fadeInLeft {
-    0% {
-      opacity: 0;
-      transform: translateX(-20px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0);
     }
   }
